@@ -1,0 +1,69 @@
+.logoSvg {
+  width: 23px;
+  height: 23px;
+  fill: #5f6368;
+  border-radius: 50%;
+}
+.navCircle {
+  border-radius: 50%;
+  padding: 2px;
+}
+.navCircle:hover {
+  background-color: grey;
+}
+.navAvatar {
+  height: 32px;
+  width: 32px;
+
+}
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+* {
+  border: 1px solid #999;
+}
+nav {
+  align-self: flex-end;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 0px;
+  margin-top: 0px;
+  display: flex;
+  border: 1px solid #999;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav div {
+  margin: 6px;
+  margin-left: 10px;
+}
+nav div a,
+nav div a::after {
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+}
+nav div a:hover {
+  text-decoration: underline;
+}
+article {
+  width: 100%;
+}
+.searchBox {
+  width: 90%;
+  height: 35px;
+}
+.searchBox form input {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
